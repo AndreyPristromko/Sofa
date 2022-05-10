@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FurnitureCo.</title>
+    <link href="index.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <!-- шапка -->
+    <header class="background_blok">
+        <div class="head">
+            <div class="logo" onclick="logo()">FurnitureCo.</div>
+            <div class="basket_icon"><a href=""><img src="img/25-trolly.svg"></a></div>
+        </div>
+    </header>
+    <!-- поиск -->
+    <div class="background_blok_search">
+        <div class="search">
+            <div class="search_icon"><img src="img/ri_search-2-line.svg" id="search_icon"></div>
+            <div class="search_plase">
+                <div class="search_plase_1" ><form><input tupe="text" class="field" name="search" placeholder="Search for furniture"></form></div>
+            </div>
+            <div class="filter_icon"><img src="img/68-setting-1.svg" id="filter_icon"></div>
+        </div>
+    <!-- разделы -->
+        <div class="sections">
+            <div class="popular">
+                <div class="sections_icon_popular" onclick="popular()"><a href="#"><img src="img/star.svg"></a></div>
+                <div class="sections_text">All</div>
+            </div>
+            <div class="chairs">
+                <div class="sections_icon_chairs" onclick="chairs()"><a href="#"><img src="img/Group.svg"></a></div>
+                <div class="sections_text">Chairs</div>
+            </div>
+            <div class="tables">
+                <div class="sections_icon_tables" onclick="tables()"><a href="#"><img src="img/Group_1.svg"></a></div>
+                <div class="sections_text">Tables</div>
+            </div>
+            <div class="sofas">
+                <div class="sections_icon_sofas" onclick="sofas()"><a href="#"><img src="img/Group_2.svg"></a></div>
+                <div class="sections_text">Sofas</div>
+            </div>
+            <div class="beds">
+                <div class="sections_icon_beds" onclick="beds()"><a href="#"><img src="img/Vector_1.svg"></a></div>
+                <div class="sections_text">Beds</div>
+            </div>
+        </div>
+    </div>
+    <!-- контент -->
+    <div class="background_blok_content">
+        <!-- стулья и кресла -->
+        <div class="chairs_blok" >
+            <div class="card_chair_1">
+                <div class="img">
+                    <img src="chair\chair_1.svg">
+                </div>
+                <p class="name">Couple Love</p>
+                <div class="price_and_arrow">
+                    <p class="price">$50.99</p>
+                    <button class="arrow">
+                        <img src="img\fi-rr-arrow-small-right.svg">
+                    </button>
+                </div>
+            </div>
+            <div class="card_chair_2">
+                <div class="img">
+                    <img src="chair\chair_2.svg">
+                </div>
+                <p class="name">Leatherette Sofa</p>
+                <div class="price_and_arrow">
+                    <p class="price">$30.99</p>
+                    <button class="arrow">
+                        <img src="img\fi-rr-arrow-small-right.svg">
+                    </button>
+                </div>
+                </div>
+                <div class="card_chair_3">
+                    <div class="img">
+                        <img src="chair\chair_3.svg">
+                    </div>
+                    <p class="name">Gray Throne</p>
+                    <div class="price_and_arrow">
+                        <p class="price">$25.99</p>
+                        <button class="arrow">
+                            <img src="img\fi-rr-arrow-small-right.svg">
+                        </button>
+                    </div>
+                </div>
+                <div class="card_chair_4">
+                    <div class="img">
+                        <img src="chair\chair_4.svg">
+                    </div>
+                    <p class="name">Sunny Chair</p>
+                    <div class="price_and_arrow">
+                        <p class="price">$29.99</p>
+                        <button class="arrow">
+                            <img src="img\fi-rr-arrow-small-right.svg">
+                        </button>
+                    </div>
+                </div>
+                <div class="card_chair_5">
+                    <div class="img">
+                        <img src="chair\chair_5.svg">
+                    </div>
+                    <p class="name">Green Fields</p>
+                    <div class="price_and_arrow">
+                        <p class="price">$37.99</p>
+                        <button class="arrow">
+                            <img src="img\fi-rr-arrow-small-right.svg">
+                        </button>
+                    </div>
+                </div>
+                <div class="card_chair_6">
+                    <div class="img">
+                        <img src="chair\chair_6.svg">
+                    </div>
+                    <p class="name">Sit On Me</p>
+                    <div class="price_and_arrow">
+                        <p class="price">$20.99</p>
+                        <button class="arrow">
+                            <img src="img\fi-rr-arrow-small-right.svg">
+                        </button>
+                    </div>
+                </div>
+                <div class="card_chair_7">
+                    <div class="img">
+                        <img src="chair\chair_7.svg">
+                    </div>
+                    <p class="name">Easy Chair</p>
+                    <div class="price_and_arrow">
+                        <p class="price">$37.99</p>
+                        <button class="arrow">
+                            <img src="img\fi-rr-arrow-small-right.svg">
+                        </button>
+                    </div>
+                </div>
+                <div class="card_chair_8">
+                    <div class="img">
+                        <img src="chair\chair_8.svg">
+                    </div>
+                    <p class="name">Swedish Comfort</p>
+                    <div class="price_and_arrow">
+                        <p class="price">$50.99</p>
+                        <button class="arrow">
+                            <img src="img\fi-rr-arrow-small-right.svg">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- столы -->
+            <div class="tables_blok" >
+                <div class="card_table_1">
+                    <div class="img"><img src="table\table_1.svg"></div>
+                    <p class="name">Minimalism</p>
+                    <div class="price_and_arrow">
+                        <p class="price">$90.99</p>
+                        <button class="arrow">
+                            <img src="img\fi-rr-arrow-small-right.svg">
+                        </button>
+                    </div>
+                </div>
+                <div class="card_table_2">
+                    <div class="img"><img src="table\table_2.svg"></div>
+                    <p class="name">White Plateau</p>
+                    <div class="price_and_arrow">
+                        <p class="price">$200.99</p>
+                        <button class="arrow">
+                            <img src="img\fi-rr-arrow-small-right.svg">
+                        </button>
+                    </div>
+                </div>
+                <div class="card_table_3">
+                    <div class="img"><img src="table\table_3.svg"></div>
+                    <p class="name">Plastic Miracle</p>
+                    <div class="price_and_arrow">
+                        <p class="price">$77.99</p>
+                        <button class="arrow">
+                            <img src="img\fi-rr-arrow-small-right.svg">
+                        </button>
+                    </div>
+                </div>
+                <div class="card_table_4">
+                    <div class="img"><img src="table\table_4.svg"></div>
+                    <p class="name">Coffee Table</p>
+                    <div class="price_and_arrow">
+                        <p class="price">$150.99</p>
+                        <button class="arrow">
+                            <img src="img\fi-rr-arrow-small-right.svg">
+                        </button>
+                    </div>
+                </div>
+                <div class="card_table_5">
+                    <div class="img"><img src="table\table_5.svg"></div>
+                    <p class="name">Folding Table</p>
+                    <div class="price_and_arrow">
+                        <p class="price">$60.99</p>
+                        <button class="arrow">
+                            <img src="img\fi-rr-arrow-small-right.svg">
+                        </button>
+                    </div>
+                </div>
+                <div class="card_table_6">
+                    <div class="img"><img src="table\table_6.svg"></div>
+                    <p class="name">Bar Table</p>
+                    <div class="price_and_arrow">
+                        <p class="price">$99.99</p>
+                        <button class="arrow">
+                            <img src="img\fi-rr-arrow-small-right.svg">
+                        </button>
+                    </div>
+                </div>
+                <div class="card_table_7">
+                    <div class="img"><img src="table\table_7.svg"></div>
+                    <p class="name">Children's Desk</p>
+                    <div class="price_and_arrow">
+                        <p class="price">$255.99</p>
+                        <button class="arrow">
+                            <img src="img\fi-rr-arrow-small-right.svg">
+                        </button>
+                    </div>
+                </div>
+                <div class="card_table_8">
+                    <div class="img"><img src="table\table_8.svg"></div>
+                    <p class="name">Kitchen Table</p>
+                    <div class="price_and_arrow">
+                        <p class="price">$170.99</p>
+                        <button class="arrow">
+                            <img src="img\fi-rr-arrow-small-right.svg">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- диваны -->
+            <div class="sofas_blok">
+                <div class="card_sofa_1">
+                    <div class="img">
+                        <img src="sofa\sofa_1.svg">
+                    </div>
+                    <p class="name">Soft Sofa</p>
+                    <div class="price_and_arrow">
+                        <p class="price">$300.99</p>
+                        <button class="arrow">
+                            <img src="img\fi-rr-arrow-small-right.svg">
+                        </button>
+                    </div>
+                </div>
+                <div class="card_sofa_2">
+                    <div class="img">
+                        <img src="sofa\sofa_2.svg">
+                    </div>
+                    <p class="name">Danish Sofa</p>
+                    <div class="price_and_arrow">
+                        <p class="price">$329.99</p>
+                        <button class="arrow">
+                            <img src="img\fi-rr-arrow-small-right.svg">
+                        </button>
+                    </div>
+                </div>
+                <div class="card_sofa_3">
+                    <div class="img">
+                        <img src="sofa\sofa_3.svg">
+                    </div>
+                    <p class="name">Round Shapes</p>
+                    <div class="price_and_arrow">
+                        <p class="price">$310.99</p>
+                        <button class="arrow">
+                            <img src="img\fi-rr-arrow-small-right.svg">
+                        </button>
+                    </div>
+                </div>
+                <div class="card_sofa_4">
+                    <div class="img">
+                        <img src="sofa\sofa_4.svg">
+                    </div>
+                    <p class="name">Gray Castle</p>
+                    <div class="price_and_arrow">
+                        <p class="price">$365.99</p>
+                        <button class="arrow">
+                            <img src="img\fi-rr-arrow-small-right.svg">
+                        </button>
+                    </div>
+                </div>
+                <div class="card_sofa_5">
+                    <div class="img">
+                        <img src="sofa\sofa_5.svg">
+                    </div>
+                    <p class="name">Fashion Challenge</p>
+                    <div class="price_and_arrow">
+                        <p class="price">$354.99</p>
+                        <button class="arrow">
+                            <img src="img\fi-rr-arrow-small-right.svg">
+                        </button>
+                    </div>
+                </div>
+                <div class="card_sofa_6">
+                    <div class="img">
+                        <img src="sofa\sofa_6.svg">
+                    </div>
+                    <p class="name">Black Sofa</p>
+                    <div class="price_and_arrow">
+                        <p class="price">$400.99</p>
+                        <button class="arrow">
+                            <img src="img\fi-rr-arrow-small-right.svg">
+                        </button>
+                    </div>
+                </div>
+                <div class="card_sofa_7">
+                    <div class="img">
+                        <img src="sofa\sofa_7.svg">
+                    </div>
+                    <p class="name">Gray Sofa</p>
+                    <div class="price_and_arrow">
+                        <p class="price">$356.99</p>
+                        <button class="arrow">
+                            <img src="img\fi-rr-arrow-small-right.svg">
+                        </button>
+                    </div>
+                </div>
+                <div class="card_sofa_8">
+                    <div class="img">
+                        <img src="sofa\sofa_8.svg">
+                    </div>
+                    <p class="name">Nothing Extra</p>
+                    <div class="price_and_arrow">
+                        <p class="price">$368.99</p>
+                        <button class="arrow">
+                            <img src="img\fi-rr-arrow-small-right.svg">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- кровати -->
+            <div class="beds_blok">
+                <div class="card_bed_1">
+                    <div class="img"><img src="beds\bed_1.svg"></div>
+                    <p class="name">Children's Bed</p>
+                    <div class="price_and_arrow">
+                        <p class="price">$500.99</p>
+                        <button class="arrow">
+                            <img src="img\fi-rr-arrow-small-right.svg">
+                        </button>
+                    </div>
+                </div>
+                <div class="card_bed_2">
+                    <div class="img"><img src="beds\bed_2.svg"></div>
+                    <p class="name">Not All White Bed</p>
+                    <div class="price_and_arrow">
+                        <p class="price">$670.99</p>
+                        <button class="arrow">
+                            <img src="img\fi-rr-arrow-small-right.svg">
+                        </button>
+                    </div>
+                </div>
+                <div class="card_bed_3">
+                    <div class="img"><img src="beds\bed_3.svg"></div>
+                    <p class="name">All White Bed</p>
+                    <div class="price_and_arrow">
+                        <p class="price">$670.99</p>
+                        <button class="arrow">
+                            <img src="img\fi-rr-arrow-small-right.svg">
+                        </button>
+                    </div>
+                </div>
+                <div class="card_bed_4">
+                    <div class="img"><img src="beds\bed_4.svg"></div>
+                    <p class="name">Brown Bed</p>
+                    <div class="price_and_arrow">
+                        <p class="price">$665.99</p>
+                        <button class="arrow">
+                            <img src="img\fi-rr-arrow-small-right.svg">
+                        </button>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <!-- подвал -->
+    <footer class="background_blok_basement">
+        <div class="basement"></div>
+    </footer>
+    <!-- кнопки -->
+    <div class="background_blok_buttons">
+        <div class="buttons">
+            <div class="home"><img src="img\clarity_home-solid.svg"></div>
+            <div class="bookmarks"><img src="img\3-keep-minus.svg"></div>
+            <div class="notifications"><img src="img\76-notification.svg"></div>
+            <div class="account"><img src="img\bi_person.svg"></div>
+        </div>
+    </div>
+    <!-- сообщение -->
+    <div class="need">
+        <div class="message">You did not enter the telephone. It is not right. You were clearly told to log in from your phone. Restart!!!</div><img class="phone" src="img/smartphone_5549385.png">
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
